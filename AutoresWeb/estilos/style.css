@@ -1,0 +1,56 @@
+button{
+	width:338px;
+	height:100px;
+	background:rgb(0, 128, 64);
+	font-family: "Comic Sans MS";
+	font-size: xx-large;
+	color: white;
+	cursor: pointer;
+	border-radius: 15px;
+}
+
+.libro {
+	width:100px;
+	height:100px;
+}
+    
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
+    font-size:large;
+}
+    
+.div1 {
+    grid-column: span 2 / span 2;
+    border: 1px solid black;
+    border-radius: 15px;
+    background: lightgray;
+}
+
+.div2 {
+    grid-column: span 2 / span 2;
+    grid-row: span 3 / span 3;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    border: 1px solid black;
+    border-radius: 15px;
+    background: lightgray;
+}
+
+.div3 {
+    grid-column: span 3 / span 3;
+    grid-row: span 4 / span 4;
+    grid-column-start: 3;
+    grid-row-start: 1;
+    border: 1px solid black;
+    border-radius: 15px;
+    background: lightgray;
+}
+
+.div3>img {
+	border-radius: 15px;
+}
+
